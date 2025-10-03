@@ -1,15 +1,16 @@
 package Tugas;
 public class Anggota {
-    private String noKtp;
-    private String nama;
+    private String noKtp; //deklarasi atribut private
+    private String nama;  //hanya bisa diakses di dalam class
     private int limitPinjam;
     private int jmlPinjam;
     
-    // konstrutor
+    // konstrutor 
     public Anggota(String k, String n, int l){
-        this.noKtp = k;
+        this.noKtp = k; //inisiasi atribut noktp dgn parameter k
         this.nama = n;
-        this.limitPinjam = l;
+        this.limitPinjam = l; 
+        this.jmlPinjam = 0; // saat pertama kali dibuat, peminjaman = 0
     }
 
     // getter
@@ -42,7 +43,15 @@ public class Anggota {
     //angsur
     public void angsur(int jumlah){
         // min angsuran 10% dri pinjaman
-        int minAngsur = jmlPinjam / 10;
+        int minAngsur = jmlPinjam / 10; //deklrasasi dan inisisaisi
+
+        //soal 1
+        /* if (jumlah > jmlPinjam) { //cek kodisin
+         *     jmlPinjam = 0;
+         *  } else {
+         *     jmlPinjam -= jumlah;
+         * }
+         */
 
         //modif no 2
         if (jumlah < minAngsur) {
