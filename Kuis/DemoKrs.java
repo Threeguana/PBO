@@ -4,7 +4,7 @@ public class DemoKrs {
 
     public static void main(String[] args) {
         ArrayList<MataKuliah> krs1 = new ArrayList<>();
-        Mahasiswa mhs1 = new Mahasiswa("244107060140", "Andini Tribuana", "Batu", "01-06-2006");
+        Mahasiswa mhs1 = new Mahasiswa("244107060140", "Andini Tribuana");
 
         MataKuliah mk1 = new MataKuliah(101, "PBO", 4);
         MataKuliah mk2 = new MataKuliah(102, "Basdat", 3);

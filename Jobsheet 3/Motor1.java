@@ -1,6 +1,6 @@
-public class Motor {
+public class Motor1 {
     private String platNomor; //private - hanya dpt diakses di dlm kelas yg sama
-    private boolean isMesinOn; 
+    private boolean isMesinOn;
     private int kecepatan;
 
     public void displayStatus(){
@@ -30,13 +30,13 @@ public class Motor {
     public void setMesinOn(boolean m){
         this.isMesinOn = m;
     }
-    
+
     public int getKecepatan() {
         return kecepatan;
     }
 
     public void setKecepatan(int k){
-        if (!this.isMesinOn && k > 0) { 
+        if (!this.isMesinOn && k > 0) {
             System.out.println("\nKecepatan tidak bisa bertambah karena mesin off");
         } else if(k < 0) {
             System.out.println("\nKecepatan tidak boleh negatif");

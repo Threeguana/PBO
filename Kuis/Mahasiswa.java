@@ -1,15 +1,11 @@
 public class Mahasiswa {
     private String nim;
     private String nama;
-    private String alamat;
-    private String tanggalLahir;
     private MataKuliah mataKuliah;
 
-    public Mahasiswa(String nim, String nama, String alamat, String tanggalLahir) {
+    public Mahasiswa(String nim, String nama) {
         this.nim = nim;
         this.nama = nama;
-        this.alamat = alamat;
-        this.tanggalLahir = tanggalLahir;
         this.mataKuliah = null;
     }
 
