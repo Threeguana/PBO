@@ -1,4 +1,4 @@
-public class TV extends AlatElektronik implements Audible{
+public class TV extends AlatElektronik implements IAudible{
     private String jenisLayar;
     private int volume;
 

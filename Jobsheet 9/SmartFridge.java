@@ -1,4 +1,4 @@
-public class SmartFridge extends AlatElektronik implements Audible{
+public class SmartFridge extends AlatElektronik implements IAudible{
     private int volume;
 
     public SmartFridge(int volume, double harga, String warna, String merk){

@@ -18,7 +18,7 @@ public class AlatElektronik {
     }
 
     public String getWarna(){
-        return warna;
+        return warna; 
     }
 
     public void setWarna(String warna){
