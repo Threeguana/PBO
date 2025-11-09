@@ -13,4 +13,10 @@ public class Kipas extends AlatElektronik {
     public void setJenis(String jenis){
         this.jenis = jenis;
     }
+
+    @Override
+    public void getInfo(){
+        super.getInfo();
+        System.out.println("Jenis : " + getJenis());
+    }
 }

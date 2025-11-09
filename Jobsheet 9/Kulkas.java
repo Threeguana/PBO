@@ -13,4 +13,10 @@ public class Kulkas extends AlatElektronik{
     public int getJmlPintu(){
         return jmlPintu;
     }
+
+    @Override
+    public void getInfo(){
+        super.getInfo();
+        System.out.println("Jumlah Pintu: " + getJmlPintu());
+    }
 }
