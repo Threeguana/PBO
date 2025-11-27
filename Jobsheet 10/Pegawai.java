@@ -1,4 +1,4 @@
-public class Pegawai {
+public class Pegawai { // parent
     public String nip;
     public String nama;
 
