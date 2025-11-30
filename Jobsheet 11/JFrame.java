@@ -10,6 +10,7 @@ public class JFrame {
 
         // menutup apk ketika di close
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // hanya untuk streak hehe
 
         // menampilkan jendela
         frame.setVisible(true);
