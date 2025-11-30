@@ -6,11 +6,13 @@ public class JFrame {
         JFrame frame = new JFrame("My app");
 
         // membuat ukuran jendela
-        frame.setSize(300, 200);
+        frame.setSize(300, 400);
 
         // menutup apk ketika di close
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         // hanya untuk streak hehe
+
+
 
         // menampilkan jendela
         frame.setVisible(true);
